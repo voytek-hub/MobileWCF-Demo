@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileWCF.Mobile.Views.FirstPage">
+  <StackLayout  VerticalOptions="Center" HorizontalOptions="Center">
+    <Label Text="WCF Demo" />
+    <Entry Placeholder="Numer 1" x:Name="eNum1"/>
+    <Entry Placeholder="Numer 2" x:Name="eNum2"/>
+    <Button x:Name="b1" Text="Sum" />
+    <Label x:Name="lResult" />
+  </StackLayout>
+</ContentPage>
