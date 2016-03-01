@@ -18,7 +18,7 @@ namespace MobileWCF.Mobile.Views
         {
             try
             {
-                string strAddress = "http://localhost:9003/CalculatorService";
+                string strAddress = "http://192.168.106.164:9003/CalculatorService";
                 BasicHttpBinding httpBinding = new BasicHttpBinding();
                 EndpointAddress address = new EndpointAddress(strAddress);
 
